@@ -1,7 +1,7 @@
 # gaoruan
 ## 高软课程实验代码
 ### 第一周作业
-  1、lab1/   此目录下是C语言编写的hello word的程序    
+  1、lab1/   此目录下是C语言编写的hello word的程序，[点击查看实验报告](https://www.shiyanlou.com/courses/reports/1290122)  。    
   2、todos/ 此目录下是
   使用vuejs完成的ToDoList   
   
