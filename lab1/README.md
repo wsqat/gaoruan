@@ -1,7 +1,7 @@
-#实验一：写一个hello world小程序
+# 实验一：写一个hello world小程序
 > 思路：跟着孟宁老师的网易云课堂回顾一下C编码，同时复习之前工作中使用的一些git操作。
 
-###1、在github上创建仓库
+### 1、在github上创建仓库
 首先在github上新建一个仓库，我这里是gaoruan。因此，我的git地址是：https://github.com/wsqat/gaoruan.git
 ![gaoruan.png](http://upload-images.jianshu.io/upload_images/688387-6a18960404122730.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ```
@@ -10,7 +10,7 @@ git clone https://github.com/wsqat/gaoruan.git
 将远程新创建的git仓库gaoruan拉取到本地
 
 
-###2、实现hello world
+### 2、实现hello world
 
 ![vi.png](http://upload-images.jianshu.io/upload_images/688387-8308f6e072672148.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -48,7 +48,7 @@ tar -zcvf wsqat_lab1.tar.gz ./*
 当前下所有文件打包
 
 
-###3、上传lab1到git
+### 3、上传lab1到git
 ![push.png](http://upload-images.jianshu.io/upload_images/688387-d9f995b4959c4fad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ```
 git status
