@@ -18,3 +18,5 @@
 -  sudo cnpm install #安装依赖
 -  npm run dev #运行
 
+### 第二周作业
+  1、lab2/   此目录下是C语言编写的菜单小程序
