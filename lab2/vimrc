@@ -1,0 +1,29 @@
+#"显示行号"
+set nu
+
+#"允许鼠标移动光标"
+set mouse=a
+
+#"自动缩进"   
+set autoindent  
+
+#"智能选择对齐方式"    
+set smartindent  
+
+#"使用C语言对齐方式"    
+set cindent  
+
+#"Tab键宽度为4个空格"    
+set tabstop=4  
+
+#"换行自动缩进为4个空格"    
+set shiftwidth=4  
+
+#"用空格代替制表符"    
+set expandtab  
+
+#"搜索时关键字高亮"    
+set hlsearch  
+
+#"语法检查、语法高亮"    
+syntax on
