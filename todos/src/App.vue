@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <h1 v-text="title"></h1>
-    <input v-model="newItem" v-on:keyup.enter="addNew">
-    <ul>
+    <input v-model="newItem" v-on:keyup.enter="addNew" type="text" id="search">
+    <ul style="list-style-type:none;font-size: 25px;color:blue;">
       <li v-for="item in items" v-bind:class="{finished:item.isFinished}"
        v-on:click="toggleFinish(item)">{{item.label}}</li>
     </ul>
@@ -14,7 +14,7 @@ import Store from './store'
 export default {
   data () {
     return {
-      title: 'this is a todo list',
+      title: 'This is a todo list.',
       items: Store.fetch(),
       newItem: ''
     }
@@ -45,8 +45,19 @@ export default {
 </script>
 
 <style>
+#search{
+  width: 235px;
+  height: 28px;
+  border-radius: 10px;
+  margin: 36px,0,20px,0;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
 .finished{
-  text-decoration: underline;
+  text-decoration: line-through;
+  color: red;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
