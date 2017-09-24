@@ -1,0 +1,19 @@
+
+.note{
+  font-size: 10px;
+  color: #bcbcbc;
+}
+
+
+#todo-app{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+ul li{
+  line-height: 30px;
+}
+.cls-finished{
+  color: darkgreen;
+  text-decoration:line-through
+}
