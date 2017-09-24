@@ -1,8 +1,8 @@
 # gaoruan
 ## 高软课程实验代码
 ### 第一周作业
-  1、lab1/   此目录下是C语言编写的hello word的程序，[点击查看实验报告](https://www.shiyanlou.com/courses/reports/1290122)  。    
-  2、todos/ 此目录下是
+  1、lab1/: 此目录下是C语言编写的hello word的程序，[点击查看实验报告](https://www.shiyanlou.com/courses/reports/1290122)  。  
+  2、todos/: 此目录下是
   使用vuejs完成的ToDoList   
   
 #### vuejs安装指南
@@ -19,4 +19,19 @@
 -  npm run dev #运行
 
 ### 第二周作业
-  1、lab2/   此目录下是C语言编写的菜单小程序
+  1、lab2/: 此目录下是C语言编写的菜单小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab2)    
+  2、Demos/: 此目录下是使用Vuejs完成的Demos  
+-   vue-starter/: 此为夯实Vue系列Demo   
+-   demo1/: 父->子 组件通讯：props  
+-   demo2/: 子 >父-组件通讯：Emit    
+-   demo3/: 2way 双向绑定-组件通讯：v-model, obj2way 双向绑定-组件通讯: v-model   
+-   demo4/: 普通组件通讯：Global Bus
+-   demo5/: 一个简单的Todo List
+-   demo6/: 基于Vuex的Todo List
+
+#### Demos安装指南
+    以vue-starter为例(其他几个demo类似)使用如下命令，即可运行vue-starter所展示的Demos
+-  git clone https://github.com/wsqat/gaoruan.git
+-  cd gaoruan/demos/vue-starter
+-  cnpm install
+-  npm run dev

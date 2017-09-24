@@ -1,0 +1,39 @@
+
+.note{
+  font-size: 20px;
+  /*color: #bcbcbc;*/
+  color: black;
+}
+
+
+#todo-app{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+ul li{
+  line-height: 30px;
+  list-style-type:none;
+  font-size: 20px
+}
+.cls-finished{
+  /*color: darkgreen;*/
+  color: red;
+  text-decoration:line-through
+}
+
+#search{
+  width: 235px;
+  height: 28px;
+  border-radius: 10px;
+  margin: 36px,0,20px,0;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  font-size: 15px;
+}
+
+.finished{
+  text-decoration: line-through;
+  color: red;
+}
