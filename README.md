@@ -32,6 +32,6 @@
 #### Demos安装指南
     以vue-starter为例(其他几个demo类似)使用如下命令，即可运行vue-starter所展示的Demos
 -  git clone https://github.com/wsqat/gaoruan.git
--  cd gaoruan/demos/vue-starter
+-  cd gaoruan/Demos/vue-starter
 -  cnpm install
 -  npm run dev
