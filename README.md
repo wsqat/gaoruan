@@ -35,3 +35,6 @@
 -  cd gaoruan/Demos/vue-starter
 -  cnpm install
 -  npm run dev
+
+### 第三周作业
+  lab3/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab3)    
