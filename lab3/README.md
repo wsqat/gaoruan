@@ -269,7 +269,7 @@ int Quit()
 ## 三、上传代码
 ```
 git add .
-git commit -m "add lab2/"
+git commit -m "add lab3/"
 git push
 ```
 ![push.png](http://upload-images.jianshu.io/upload_images/688387-22c9fce67f783948.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
