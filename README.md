@@ -37,4 +37,13 @@
 -  npm run dev
 
 ### 第三周作业
-  lab3/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab3)    
+  1、lab3/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab3)   
+  2、Vue背后如何实现的双向数据绑定？  
+*  数据劫持的方法：[Object.defineProperty方法(属性拦截器)](http://blog.csdn.net/u011277123/article/details/58597638)  
+* 1.[理解vue实现原理，实现一个简单的Vue框架](https://github.com/fwing1987/MyVue)
+* 2.[Vue源代码](https://github.com/vuejs/vue) - [便于跟踪vue源代码的例子](https://coding.net/u/mengning/p/mengning/git/raw/master/ase/vue-example.zip)
+* 目标3：通过跟踪vue源代码来说明vue是如何实现数据双向绑定的？将1理解透彻合格，将2理解透彻优秀。应在10月09日完成
+* [相关博客](https://zhuanlan.zhihu.com/p/24435564)
+
+### 第四周作业
+  lab4/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab4)   
