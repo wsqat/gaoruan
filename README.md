@@ -28,6 +28,7 @@
 -   demo4/: 普通组件通讯：Global Bus
 -   demo5/: 一个简单的Todo List
 -   demo6/: 基于Vuex的Todo List
+-   [相关博客](http://liuguixue.com/14944169197755.html)
 
 #### Demos安装指南
     以vue-starter为例(其他几个demo类似)使用如下命令，即可运行vue-starter所展示的Demos
