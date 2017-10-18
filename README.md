@@ -47,4 +47,7 @@
 * [相关博客](https://zhuanlan.zhihu.com/p/24435564)
 
 ### 第四周作业
-  lab4/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab4)   
+  lab4/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab4)
+
+### 第五周作业 
+  lab5/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab5)   
