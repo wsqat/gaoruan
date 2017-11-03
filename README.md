@@ -51,7 +51,13 @@
 
 ### 第五周作业 
   lab5/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab5)   
-  Task-4/: 重写Demo10，实现图书购物车小Demo，一个提交页面，一个展示页面   
+  Task-4/: 重写Demo10，实现图书购物车小Demo，一个提交页面，一个展示页面。
+  ```
+  cd gaoruan/Task-4/
+  npm install
+  npm run dev
+  ```
+  
 * 基于vue的技术栈范例，包括vuex、axios、RESTful API (express和express-rest)、mongoose和mongoDB
 * 6－10个例子的文档：http://liuguixue.com/Vue.html 以及源码：https://coding.net/u/guixue/p/vue-starter/git
 * Promise对象基本用法
