@@ -410,20 +410,73 @@ void Version(int argc, char *argv[])
 
 void Directory(int argc, char *argv[])
 {
-	char buf[80];
-	getcwd(buf,sizeof(buf));
-	printf("current working directory: %s\n",buf);    
+    char buf[80];
+    getcwd(buf,sizeof(buf));
+    printf("current working directory: %s\n",buf);    
 }
 
 void Date(int argc, char *argv[])
 {
-	time_t timep;
-	struct tm *p;
-	time(&timep);
-	p=gmtime(&timep);
-	printf("%d\\",1900+p->tm_year);
-	printf("%d\\",1+p->tm_mon);
-	printf("%d\n",p->tm_mday);
+    time_t timep;
+    struct tm *p;
+    time(&timep);
+    p=gmtime(&timep);
+    printf("%d\\",1900+p->tm_year);
+    printf("%d\\",1+p->tm_mon);
+    printf("%d\n",p->tm_mday);
+}
+
+int Add(int argc, char* argv[])
+{
+    int i,r;
+    if(argc !=3)
+    {
+        printf("warning input 2 numbers\n");
+        return 0;
+    }
+    r=atoi(argv[1])+atoi(argv[2]);
+    printf("result is %d\n",r);
+    return 0;
+}
+
+int Sub(int argc, char* argv[])
+{
+    int i,r;
+    if(argc !=3)
+    {
+        printf("warning input 2 numbers\n");
+        return 0;
+    }
+    r=atoi(argv[1])-atoi(argv[2]);
+    printf("result is %d\n",r);
+    return 0;
+}
+
+int Mul(int argc, char* argv[])
+{
+    int i,r;
+    if(argc !=3)
+    {
+        printf("warning input 2 numbers\n");
+        return 0;
+    }
+    r=atoi(argv[1])*atoi(argv[2]);
+    printf("result is %d\n",r);
+    return 0;
+}
+
+int Divi(int argc, char* argv[])
+{
+    int i;
+    float r;
+    if(argc !=3)
+    {
+        printf("warning input 2 numbers\n");
+        return 0;
+    }
+    r=((float)atoi(argv[1]))/atoi(argv[2]);
+    printf("result is %.2f\n",r);
+    return 0;
 }
 
 int main(int argc,char* argv[])
@@ -432,6 +485,10 @@ int main(int argc,char* argv[])
     MenuConfig("quit","Quit from XXX",Quit);
     MenuConfig("directory","Show the work path",Directory);
     MenuConfig("date","Show the date",Date);
+    MenuConfig("add","printf all you input in the terminal", Add);
+    MenuConfig("sub","printf all you input in the terminal", Sub);
+    MenuConfig("mul","printf all you input in the terminal", Mul);
+    MenuConfig("divi","printf all you input in the terminal", Divi);
 
     ExecuteMenu();
 }
@@ -448,20 +505,23 @@ RM_FLAGS           =-f
 TARGET=test
 OBJS=linktable.o menu.o test.o
 all: $(OBJS)
-	$(CC) $(CC_OUTPUT_FLAGS) $(TARGET) $(OBJS)
+    $(CC) $(CC_OUTPUT_FLAGS) $(TARGET) $(OBJS)
 
 .c.o:
-	$(CC) $(CC_FLAGS) $<
+    $(CC) $(CC_FLAGS) $<
 
 clean:
-	$(RM) $(RM_FLAGS) $(OBJS) $(TARGET) *.bak
+    $(RM) $(RM_FLAGS) $(OBJS) $(TARGET) *.bak
 ```
 
 ### 7、实验结果截图
 
 ![make.png](http://upload-images.jianshu.io/upload_images/688387-24e2f2bd79fb52bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![menu.png](http://upload-images.jianshu.io/upload_images/688387-a752272c449fe925.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![menu.png](http://upload-images.jianshu.io/upload_images/688387-cc9128875eeb44c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![results.png](http://upload-images.jianshu.io/upload_images/688387-948e40b1d4ebffbb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ## 四、上传代码
 ```
@@ -477,4 +537,3 @@ git push
 - gets()方法有缓冲区溢出的问题，为了防止缓冲区溢出攻击的危险，使用fgets()方法更好。
 - shell将命令j解析成argc 和 argv传递给执行程序，可以使用getopt函数获取命令行参数。
 - 修改menu之后，能够扩展功能，支持对新功能的添加。
-
