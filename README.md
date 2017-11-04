@@ -64,4 +64,7 @@
 * 目标4:完整地理解范例10的代码工作过程合格，仿照范例10实现一个自己的应用（比如一个列表页面和一个表单页面，提交表单进入列表页面，数据存储到mongodb数据库）优秀。应在10月23日完成30号检查
 
 ### 第五周作业 
-  lab5/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab5)   
+  lab5/: 此目录下是C语言改写的模块化小程序, [点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab5)
+
+### 第七周作业 
+  lab7/: 实验七：将menu设计为可重用的子系统，[点击查看实验报告](https://github.com/wsqat/gaoruan/tree/master/lab7)     
