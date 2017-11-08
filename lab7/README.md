@@ -516,7 +516,14 @@ clean:
 
 ### 7、实验结果截图
 
+> make
+
 ![make.png](http://upload-images.jianshu.io/upload_images/688387-24e2f2bd79fb52bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> make clean
+
+![make_clean.png](http://upload-images.jianshu.io/upload_images/688387-f807a7e3315bbeb9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ![menu.png](http://upload-images.jianshu.io/upload_images/688387-cc9128875eeb44c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
